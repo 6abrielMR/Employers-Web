@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100%;
+    display: flex !important;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0 0 0;
+}
+
+h1 {
+    font-size: 2.5rem !important;
+    margin: 0 !important;
+}
+
+h2 {
+    font-size: 1.4rem !important;
+    color: rgb(0, 119, 255);
+}
+
+h3 {
+    font-size: 1.1rem !important;
+    color: black;
+}
+
+#top-nav {
+    width: 100%;
+    height: 80px;
+    background: #00A2FE;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+/* Main Structure => Titles */
+
+.main-structure-data {
+    width: 90%;
+    margin-top: 30px;
+}
+
+#main-title {
+    margin-bottom: 60px !important;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0 !important;
+}
+
+#id-ct-title {
+    font-size: 1.4rem;
+    color: rgb(0, 119, 255);
+}
+
+#field-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.separator {
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+}
+
+/* Main Employers */
+
+#main-employers {
+    width: 90%;    
+}
+
+.employer {
+    height: 150px;
+}
+
+#id-ct {
+    font-size: 1.1rem;
+    color: black;
+}
