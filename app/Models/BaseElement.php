@@ -1,26 +1,19 @@
 <?php
 
-class BaseElement {
+namespace App\Models;
+
+require 'PrintableBE.php';
+
+class BaseElement implements PrintableBE {
     
-    private idEmployer;
-    private names;
-    private typeId;
-    private phones;
-    private email;
-    private salary;
+    private $phones;
+    private $email;
+    private $salary;
 
-    public function __construct() {}
-
-    public function getIdEmployer() {
-        return $this->idEmployer;
-    }
-
-    public function getNames() {
-        return $this->names;
-    }
-
-    public function getTypeId() {
-        return $this->typeId;
+    public function __construct($phones, $email, $salary) {
+        $this->phones = $phones;
+        $this->email = $email;
+        $this->salary = $salary;
     }
 
     public function getPhones() {

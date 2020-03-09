@@ -1,3 +1,9 @@
+<?php
+
+    require_once('Employers.php');
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -48,41 +54,13 @@
         </div>
 
         <div id="main-employers">
-            <div class="row employer">
-                <div id="field-title" class="col s12 m10 l1">
-                    <h3>
-                        <label>
-                            <input type="checkbox" class="filled-in"/>
-                            <span id="id-ct">0001</span>
-                        </label>
-                    </h3>
-                </div>
-                <div id="field-title" class="col s12 m10 l2"><h3>Omar David Montes Rodriguez</h3></div>
-                <div id="field-title" class="col s12 m10 l1"><h3>TI</h3></div>
-                <div id="field-title" class="col s12 m10 l2"><h3>311 824 3879</h3></div>
-                <div id="field-title" class="col s12 m10 l2"><h3>montesdavid121@gmail.com</h3></div>
-                <div id="field-title" class="col s12 m10 l2"><h3>2.500.000 COP</h3></div>
-                <div id="field-title" class="col s12 m10 l2"><h3>Acciones</h3></div>
-            </div>
-            <div class="separator"></div>
+            <?php
 
-            <div class="row employer">
-                <div id="field-title" class="col s12 m10 l1">
-                    <h3>
-                        <label>
-                            <input type="checkbox" class="filled-in"/>
-                            <span id="id-ct">0002</span>
-                        </label>
-                    </h3>
-                </div>
-                <div id="field-title" class="col s12 m10 l2"><h3>Gabriel Omar Montes Rodriguez</h3></div>
-                <div id="field-title" class="col s12 m10 l1"><h3>CC</h3></div>
-                <div id="field-title" class="col s12 m10 l2"><h3>311 537 5511</h3></div>
-                <div id="field-title" class="col s12 m10 l2"><h3>gabriel.montes716@gmail.com</h3></div>
-                <div id="field-title" class="col s12 m10 l2"><h3>2.000.000 COP</h3></div>
-                <div id="field-title" class="col s12 m10 l2"><h3>Acciones</h3></div>
-            </div>
-            <div class="separator"></div>
+                for($idx = 0; $idx < count($employers); $idx++) {
+                    printEmployers($employers[$idx]);
+                }
+
+            ?>
         </div>
 
     </main>
