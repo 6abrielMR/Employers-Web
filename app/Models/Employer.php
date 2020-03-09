@@ -2,9 +2,6 @@
 
 namespace App\Models;
 
-require 'BaseElement.php';
-require 'PrintableEmployer.php';
-
 class Employer extends BaseElement implements PrintableEmployer {
 
     private $idEmployer;

@@ -1,8 +1,6 @@
 <?php 
 
-require 'app/Models/Employer.php';
-require_once 'app/Models/PrintableEmployer.php';
-require_once 'app/Models/PrintableBE.php';
+require_once 'vendor/autoload.php';
 
 use App\Models\Employer;
 

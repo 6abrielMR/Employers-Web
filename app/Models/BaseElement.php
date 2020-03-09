@@ -2,8 +2,6 @@
 
 namespace App\Models;
 
-require 'PrintableBE.php';
-
 class BaseElement implements PrintableBE {
     
     private $phones;
