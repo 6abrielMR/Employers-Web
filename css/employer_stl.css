@@ -54,7 +54,12 @@ main {
     margin-top: -40px;
 }
 
-#main-form > .fields {
+#title-type {
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+#main-form-content > .fields {
     margin: 20px 0 20px 0;
 }
 

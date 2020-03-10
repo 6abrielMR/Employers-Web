@@ -21,21 +21,40 @@
         <div class="main-nav-desktop"></div>
     </header>
     <main>
-        <div id="main-form">
-            <h2>Registrar Empleado</h2>
+        <form id="main-form" action="AddEmployer.php">
+            <div id="main-form-content">
+                <h2>Registrar Empleado</h2>
 
-            <input class="fields" type="text" name="names" id="names" placeholder="Ingresa tus nombres">
-            <input class="fields" type="text" name="lastnames" id="lastnames" placeholder="Ingresa tus apellidos">
-            <input class="fields" type="text" name="number-id" id="number-id" placeholder="Ingresa tu número de identificación">
-            <input class="fields" type="text" name="number-one" id="number-one" placeholder="Ingresa un número de télefono">
-            <input class="fields" type="text" name="number-two" id="number-two" placeholder="Ingresa un número de télefono">
-            <input class="fields" type="text" name="number-three" id="number-three" placeholder="Ingresa un número de télefono">
-            <input class="fields" type="text" name="email" id="email" placeholder="Ingresa un correo eléctronico">
-            <input class="fields" type="text" name="salary" id="salary" placeholder="Ingresa tu salario">
-            <div id="main-btns">
-                <input class="btn" type="submit" value="Registrar Empleado">
+                <input class="fields" type="text" name="names" id="names" placeholder="Ingresa tus nombres">
+                <input class="fields" type="text" name="lastnames" id="lastnames" placeholder="Ingresa tus apellidos">
+                <input class="fields" type="text" name="number-id" id="number-id"
+                    placeholder="Ingresa tu número de identificación">
+                <p id="title-type">Escoge tu tipo de identificación:</p>
+                <p>
+                    <label>
+                        <input type="checkbox" class="filled-in" value="CC" />
+                        <span>CC</span>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <input type="checkbox" class="filled-in" value="CE" />
+                        <span>CE</span>
+                    </label>
+                </p>
+                <input class="fields" type="text" name="number-one" id="number-one"
+                    placeholder="Ingresa un número de télefono">
+                <input class="fields" type="text" name="number-two" id="number-two"
+                    placeholder="Ingresa un número de télefono">
+                <input class="fields" type="text" name="number-three" id="number-three"
+                    placeholder="Ingresa un número de télefono">
+                <input class="fields" type="text" name="email" id="email" placeholder="Ingresa un correo eléctronico">
+                <input class="fields" type="text" name="salary" id="salary" placeholder="Ingresa tu salario">
+                <div id="main-btns">
+                    <input class="btn" type="submit" value="Registrar Empleado">
+                </div>
             </div>
-        </div>
+        </form>
     </main>
 </body>
 
