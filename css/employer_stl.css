@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box !important;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: url(../imgs/background-add-employer.jpg);
+    background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+}
+
+h1 {
+    font-size: 1.5rem !important;
+    margin: 0 !important;
+}
+
+h2 {
+    font-size: 1.8rem !important;
+    color: rgb(0, 119, 255);
+}
+
+#top-nav {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Form */
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-form {
+    width: 50%;
+    padding: 10px 30px 30px 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgb(184, 184, 184);
+    margin-top: -40px;
+}
+
+#main-form > .fields {
+    margin: 20px 0 20px 0;
+}
+
+#main-btns {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.btn {
+    background-color: #00A2FE !important;
+}
